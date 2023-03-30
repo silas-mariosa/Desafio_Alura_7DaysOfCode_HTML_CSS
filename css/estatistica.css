@@ -1,0 +1,32 @@
+.banner__estatistica{
+    display: flex;
+    font-family: var(--font-principal);
+    justify-content: space-around;
+    margin: 0 10em 5em 10em;
+}
+
+.valor__estatistica{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-vermelho);
+}
+.titutlo__estatistica{
+    margin-top: 1em;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-fonte-secundaria);
+}
+.texto__estatistica{
+    margin-top: 1em;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-fonte-primaria);
+    line-height: 1.5;
+}
+.item{
+    align-items: center;
+    margin: 0 2em;
+}
+.container__estatistica{
+    flex-basis: 25%;
+}
