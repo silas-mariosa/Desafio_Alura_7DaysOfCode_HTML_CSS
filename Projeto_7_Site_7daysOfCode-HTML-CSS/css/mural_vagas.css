@@ -1,0 +1,40 @@
+.container__oportunidades{    
+    padding: 2.5em 2em;
+    font-family: "Inter";
+    color: var(--cor-fonte-secundaria);
+}
+.mural__oportunidades{
+    display: block;
+    padding: 0 20%;
+    margin-bottom: 3%;
+}
+.descricao__vaga{
+    display: flex;
+}
+.area__vaga{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+.ocupacao{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 1.5em;
+}
+.descricao__vaga{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-fonte-primaria);
+}
+.faixa__salarial{
+    padding-left: 1em;
+}
+.container__descricao__vaga{
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    padding: 2em 2em;   
+    margin-bottom: 2%; 
+}
+.container__descricao__vaga:hover{
+    background-color: #EAECF0;
+}
