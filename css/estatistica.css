@@ -30,3 +30,20 @@
 .container__estatistica{
     flex-basis: 25%;
 }
+
+@media screen and (max-width: 574px){
+    .banner__estatistica{   
+        display: block;  
+        text-align: center;   
+        margin: 0 1em 3em 1em;
+    }
+    .titutlo__estatistica{
+        font-size: 20px;
+    }
+    .texto__estatistica{
+        font-size: 12px;
+    }
+    .valor__estatistica{
+        font-size: 44px;
+    }
+}

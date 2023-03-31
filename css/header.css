@@ -64,8 +64,50 @@
 }
 .botao__cadastrar:hover{
     text-decoration: none;
-    color: var(--cor-fundo);
-    background-color: var(--cor-vermelho-hover);
-    padding: 0.8em 1em;
     border-radius: 8px;  
+}
+.button__hamburguer{
+    display: none;    
+}
+.item_cabecalho-button{
+    text-decoration: none;
+    color: var(--cor-fonte-primaria);
+    font-weight: 500;
+}
+.item__lista-button{
+    background: var(--cor-fundo);
+    border-bottom: 1px solid #D0D5DD;
+    padding: 0.8em 1.2em;
+}
+
+/* menu hamburguer */  
+.hamburguer__menu{
+    display: none;
+    position: absolute;
+    margin-top: 51%;
+    margin-left: 10%;       
+}
+/* final menu */
+
+@media screen and (max-width: 524px){
+    .cabecalho{        
+        padding: 1.5em 2em;
+    }
+    .button__hamburguer{
+        display: block;
+    }
+    
+    .nome__empresa{
+        display: none;
+    }
+    .cabecalho__lista{
+        display: none;
+    }
+
+    /* media menu hamburguer */
+    .active{
+        display: block;        
+    }
+    
+    /* fim */
 }

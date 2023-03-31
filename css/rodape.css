@@ -34,3 +34,20 @@
     color: var(--cor-fonte-primaria); 
     padding-top: 1.5em;
 }
+
+@media screen and (max-width: 524px) {
+    .rodape{
+        padding: 4% 1%;
+        font-family: "Inter";
+    }
+    .titulo__rodape{
+        font-size: 24px;
+    }
+    .texto__rodape{
+        font-size: 14px;
+    }
+    .banner__pesquisa{
+        width:60%;
+        box-sizing: border-box;
+    }
+}

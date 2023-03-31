@@ -38,3 +38,14 @@
 .container__descricao__vaga:hover{
     background-color: #EAECF0;
 }
+
+@media screen and (max-width: 524px) {
+    .container__oportunidades{    
+        padding: 2.5em 1em;
+    }
+    .mural__oportunidades{
+        display: block;
+        padding: 0 5%;
+        margin-bottom: 3%;
+    }
+}

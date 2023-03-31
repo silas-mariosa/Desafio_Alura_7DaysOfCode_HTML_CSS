@@ -25,3 +25,23 @@
     color: var(--cor-fonte-primaria);
 }
 
+@media screen and (max-width: 524px) {
+    .banner__container {
+      padding: 1em;
+    }
+    
+    .banner {
+      margin: 0 0.5em;
+    }
+    
+    .banner__titulo {
+      font-size: 36px;
+    }
+    
+    .banner__texto {
+      margin: 0.5em;
+      font-size: 16px;
+    }
+  }
+  
+
